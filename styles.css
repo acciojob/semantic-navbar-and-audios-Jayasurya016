@@ -1,2 +1,13 @@
+audio {
+  display: block;
+  margin-bottom: 15px;
+}
 
-/* Your CSS Code here. */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
