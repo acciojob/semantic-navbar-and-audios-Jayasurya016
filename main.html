@@ -1,38 +1,42 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Audio Player Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<nav>
-		<ul>
-			<li><a href="https://course.acciojob.com/open-web-editor?question=5996f997-e577-4a36-8ead-a0aeff480821">Home</a></li>
-			<li><a href="https://www.youtube.com/">About</a></li>
-			<li><a href="https://www.google.com/search?q=movierulz&rlz=1C1RXQR_enIN1023IN1023&oq=&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxjqAhiLBDIMCAAQIxgnGOoCGIsEMg8IARAjGCcY6gIYiwMYiwQyDwgCECMYJxjqAhiLAxiLBDIMCAMQIxgnGOoCGIsEMg8IBBAjGCcY6gIYiwMYiwQyDwgFECMYJxjqAhiLAxiLBDIMCAYQIxgnGOoCGIsEMgwIBxAjGCcY6gIYiwTSAQgzMTQ1ajFqNKgCCLACAfEFqwFf5q63nMs&sourceid=chrome&ie=UTF-8">Contact</a></li>
-		</ul>
-	</nav>
 
-   <section>	
-		
-		<h2>3 random audios</h2>
-		
-		<audio controls>
-			<source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" >
-		</audio>
-		
-		<audio controls>
-			<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-		</audio>
-	
-		<audio controls>
-			<source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
-		</audio>
-		
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Audio Section -->
+  <section>
+    <h2>3 random audios</h2>
+
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio controls>
+      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
   </section>
-</body>
 
+</body>
 </html>
